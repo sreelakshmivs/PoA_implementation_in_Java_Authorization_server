@@ -1,0 +1,53 @@
+spring:
+  application:
+    name: authserver
+
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: "jdbc:mysql://localhost:3306/USERSERVICE?autoreconnect=true"
+    password: "Sree@8606"
+    username: "root"
+
+config:
+  oauth2:
+    clientid: 3df4c8d5-2679-438d-a6d1-59387f821203
+    clientSecret: sree@123
+    privateKey: -----BEGIN RSA PRIVATE KEY-----
+      MIIEpAIBAAKCAQEA1feJ1CVftJ1XjYPmqlRt9jTjdNvwGiOSyuOQYrEM01C9wNvT
+      M5fC92ILtZUZIkdmneYXX7KBhxvpx+CMUlcBiGwCtMEpHBDkHjsiBu2HMfEdBc0H
+      Fvmf+lIPcQcx1LMdXsahCUhhZTRTFldZFLx0wiTokja83OW8pV2fBU2VXn03+nJi
+      Y+w0Mc3lWcEvbGvjzfdL6/8eLMs0AcTVTeLVKlM56VRkCvAzPKWvzuFvInsa4i0n
+      +I13vIpoSgeE9htxv//Df3ZGE976YiMO37RpH99N8bklIPSPcnhakNEDXJ8yG8oA
+      HE8JGxpHOR8qF2s2doKOZDfXwE7h5MJOO341rQIDAQABAoIBABrVZ4Cmi0Egdml2
+      AEiePAgji98M8iilC3TMY0AtShl6R8HXD76pqrbRofxMzZEh+TmWMJo8zce+9Wuu
+      uopdBQEx4oj+rIQrjiBIdDUANvNJdMVUeC4mciy3e95F87bkG6vWJz39yNEjZcQo
+      gjB6jf4HGO+1U6w0V5s5iYbluvTVbqpjDEVbe3VUSzdOEeEVWqwog6MmtMFClckd
+      ppXsmwsz1Uz+B2EncRTNnhicSmB4KBgMPS3PxS0GLVYQmSjCYI6SztxsxqPkmNMA
+      Ci3pO3ySGNdW/072fxlcVBGREgYyXxqUC4NwKk/bi3cetrO/CNCztigCD4AsX+Md
+      AxoY2ZUCgYEA66Vx9nzUvaqWHoSUNONibB/5S6M20wwaE77FBavr8tJX657C8dg3
+      SrypiBaPySLdAAFjUZX0QjQSKiSSq9FkCu1kCsmTyAyGwk6OXr6A7MoP+0N3P5X9
+      CLLdAYZNqJc9TIw7h+tmYEP8ZZ8A9P/8U346g+4iOhHtonjk+9x1p6sCgYEA6HK5
+      ol3lMmoyPyLhIQ9OT4vBZQ5ux2gaJ0d4jCZNsVrZ3npOh68hXnp7NVMEB5cx8aH0
+      MNXgWZutNpHp3J7r/+nVNLtgwvfTamRZoIbCgHvihy53A4n57Dsftez7KPVGUmwb
+      MLlYHM0XfGotOde+uxwFq5he87vm1ji5Rw+z4AcCgYAgKMQUz5R5Df7Oy2kujpmw
+      B+0N1Yh15QDqEO7yhzP8P5igH1qbhtaE7Jp2aB3XZVqj1YyoZb6gClswRS1/JWRx
+      2VP95OS2OH9rpSzo4TbXGfx0XhC4LNALj915h8qxZ3KGL90v/4BJQv3/IGQRC550
+      BpYVyzoAktHLipQ1izDDYQKBgQCzgTUd0AjZH+1hmFvmnd1JzJEyqyydTSU1RBox
+      kLraxWAOUMEoQvQv88IF8e/gtL/a68iZlfDFAlWHGLNSrl9tp3QAXttgdOWM+aXF
+      M4wskH7lCdransijxxy77yAeBxuhNt7gh6ElzLPgXlZCnvspn4A5fVeGPYsLz440
+      9EliLQKBgQCpCD7gQj5PlcWEGVZrxCacTmU6w3RrCCgLg/bdf0bc+RnZPicXudvr
+      48xw6zHpOsfpFyRI3PKB8fUKFvqWQMP7l1HOkClZ/b3KjwapChr48D9A/ViKgNnp
+      r989Qg4OO179mJjXK/1aLU6jAxUzK7QTTObAzWw6Jmf77js3IQDaqQ==
+      -----END RSA PRIVATE KEY-----
+
+    publicKey: -----BEGIN PUBLIC KEY-----
+      MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1feJ1CVftJ1XjYPmqlRt
+      9jTjdNvwGiOSyuOQYrEM01C9wNvTM5fC92ILtZUZIkdmneYXX7KBhxvpx+CMUlcB
+      iGwCtMEpHBDkHjsiBu2HMfEdBc0HFvmf+lIPcQcx1LMdXsahCUhhZTRTFldZFLx0
+      wiTokja83OW8pV2fBU2VXn03+nJiY+w0Mc3lWcEvbGvjzfdL6/8eLMs0AcTVTeLV
+      KlM56VRkCvAzPKWvzuFvInsa4i0n+I13vIpoSgeE9htxv//Df3ZGE976YiMO37Rp
+      H99N8bklIPSPcnhakNEDXJ8yG8oAHE8JGxpHOR8qF2s2doKOZDfXwE7h5MJOO341
+      rQIDAQAB
+      -----END PUBLIC KEY-----
+server:
+  port: 8081
