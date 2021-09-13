@@ -4,50 +4,60 @@ spring:
 
   datasource:
     driverClassName: com.mysql.cj.jdbc.Driver
-    url: "jdbc:mysql://localhost:3306/USERSERVICE?autoreconnect=true"
+    url: "jdbc:mysql://localhost:3306/USERSERVICE?autoreconnect=true&serverTimezone=UTC"
     password: "Sree@8606"
     username: "root"
 
 config:
   oauth2:
-    clientid: 3df4c8d5-2679-438d-a6d1-59387f821203
+    clientid: eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MzEyODU4NzIsImV4cCI6MTYzMTI5MzA3MiwidXNlcklkIjo1MSwiY2xpZW50SWQiOiJnaW9sb2ZyaGwiLCJyZXNvdXJjZVNlcnZlcklkIjoic2RoZCIsIm1ldGFkYXRhIjoiQWdlbnQgTUFDSUQ6IDEyMjMsIEFwcCB0eXBlOiBzZW5zaXRpdmUsIHNpZ25hdHVyZSBhbGdtOiBTSEEifQ.1Qwol-8lt7-ZEmTnZnInFqnxbEW_-fCxJBND2rA8nl0
     clientSecret: sree@123
     privateKey: -----BEGIN RSA PRIVATE KEY-----
-      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
+      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
       -----END RSA PRIVATE KEY-----
 
     publicKey: -----BEGIN PUBLIC KEY-----
-      MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1feJ1CVftJ1XjYPmqlRt
-      9jTjdNvwGiOSyuOQYrEM01C9wNvTM5fC92ILtZUZIkdmneYXX7KBhxvpx+CMUlcB
-      iGwCtMEpHBDkHjsiBu2HMfEdBc0HFvmf+lIPcQcx1LMdXsahCUhhZTRTFldZFLx0
-      wiTokja83OW8pV2fBU2VXn03+nJiY+w0Mc3lWcEvbGvjzfdL6/8eLMs0AcTVTeLV
-      KlM56VRkCvAzPKWvzuFvInsa4i0n+I13vIpoSgeE9htxv//Df3ZGE976YiMO37Rp
-      H99N8bklIPSPcnhakNEDXJ8yG8oAHE8JGxpHOR8qF2s2doKOZDfXwE7h5MJOO341
-      rQIDAQAB
+      MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAr05j4NTfyQj1LVn8JATu
+      1Zvr3LNs90nktjSg3jMOPa5R49oYRLquu7ijt9EHNmSfTVNrjeByHnI0hXc5RazG
+      uhId1OjbuRx/3i9YMkzO2C2SYizlwrvFJoIZq0SVcnSaSYN0MQ3Nc6BcIqD4woaU
+      ZrHD8WTCdm5rHjPEEa9A/FIDLR/V19bAcOZX9nZHwI39KFL44Y2W2lariyMdybAN
+      Z7sa5nToutHGfFrzWrONBO1fltp3AI6pMIyrFY4Q37aF6M5Am0GKehG+3vFgrhd+
+      f9rOWxGbTnuFahuysXEUiWixsqOWH5G8MqoAeutB69qpRASd3Of9IEWgcA0Id6pp
+      8wIDAQAB
       -----END PUBLIC KEY-----
 server:
   port: 8081
+
+#management:
+#  endpoints:
+    #web:
+      #exposure:
+        #include: "*"
+
+
+
+

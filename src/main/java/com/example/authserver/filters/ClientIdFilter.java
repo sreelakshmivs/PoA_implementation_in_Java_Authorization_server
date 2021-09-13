@@ -33,6 +33,7 @@ public class ClientIdFilter extends GenericFilterBean {
                     Claims claims = Jwts.parser().setSigningKey(Constants.API_SECRET_KEY)
                             .parseClaimsJws(token).getBody();
                     httpRequest.setAttribute("Username", Integer.parseInt(claims.get("Username").toString()));
+
                 }catch (Exception e) {
                     httpResponse.sendError(HttpStatus.FORBIDDEN.value(), "invalid/expired token");
                     return;
